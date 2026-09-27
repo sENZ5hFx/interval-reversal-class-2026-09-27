@@ -1,0 +1,76 @@
+{
+  "class_name": "Substrate-Export Class (SEC)",
+  "class_one_liner": "A predicate invented for substrate S0 is applied to substrate S1; the remainder is the predicate traveling, not missing data.",
+  "falsification": "If the operational definition was always substrate-neutral, SEC is wrong. Control row anesthesia_as_unresponsiveness must score 0.",
+  "generated_at_utc": "2026-09-27T17:48:19.867508+00:00",
+  "live_ranking": [
+    {
+      "id": "plant_anesthesia",
+      "notes": "Refuse 'plants are conscious'. SEC remainder: a brain-state NAME plus a cellular signature in a brainless substrate.",
+      "operational_was_neutral": false,
+      "predicate": "anaesthetised state (of consciousness)",
+      "realm": "land",
+      "s0": "brains / nervous systems",
+      "s1": "plants without a brain (IIT Mandi, 30 Jun 2026)",
+      "score": 13.3661,
+      "source": "IIT Mandi / PTI 30 Jun 2026: cellular signature of anaesthetised state in plants; synchronised nuclear reorganisation without a nervous system.",
+      "status": "UNPROVED",
+      "zeroed": false
+    },
+    {
+      "id": "gut_cognition",
+      "notes": "Not 'the second brain' metaphor. The predicate 'who thinks' traveling into the holobiont. Consciousness still refused.",
+      "operational_was_neutral": false,
+      "predicate": "cognition as a brain process",
+      "realm": "humans",
+      "s0": "cortex / CNS",
+      "s1": "host\u2013microbe holobiont (Frontiers Neurosci 2026)",
+      "score": 6.3648,
+      "source": "Frontiers in Neuroscience 2026-06-03: gut microbiota as constitutive co-constructor of embodied cognition. Signaling dark matter of low-abundance molecules remains unmapped.",
+      "status": "SYNTHESIS",
+      "zeroed": false
+    },
+    {
+      "id": "o2_as_photosynthetic_biosignature",
+      "notes": "Heavily overlapped with CIP/EFC. Eligible remainder: the predicate 'O2 means photosynthesis' traveling off Earth.",
+      "operational_was_neutral": false,
+      "predicate": "atmospheric O2 as a photosynthetic biosignature",
+      "realm": "space",
+      "s0": "Earth photic biosphere",
+      "s1": "exoplanet atmospheres / crustal & groundwater O2",
+      "score": 4.4352,
+      "source": "NASA ExEP Science Gap List 2025 item 16: complete inventory of remotely observable biosignatures and false positives. Ruff groundwater dark oxygen (microbial) distinct from Sweetman nodules (CLOSED).",
+      "status": "GAP",
+      "zeroed": false
+    }
+  ],
+  "novelty_capped": 0.33,
+  "parent_class": "Interval-Reversal Class (IRC)",
+  "primary": {
+    "id": "plant_anesthesia",
+    "notes": "Refuse 'plants are conscious'. SEC remainder: a brain-state NAME plus a cellular signature in a brainless substrate.",
+    "operational_was_neutral": false,
+    "predicate": "anaesthetised state (of consciousness)",
+    "realm": "land",
+    "s0": "brains / nervous systems",
+    "s1": "plants without a brain (IIT Mandi, 30 Jun 2026)",
+    "score": 13.3661,
+    "source": "IIT Mandi / PTI 30 Jun 2026: cellular signature of anaesthetised state in plants; synchronised nuclear reorganisation without a nervous system.",
+    "status": "UNPROVED",
+    "zeroed": false
+  },
+  "session_id": "2026-09-27-irc-sec-iterate",
+  "sha256": "e61d133481a4290d1a8c1a610283f83fed555e08ca4b651baa09d51bf865c773",
+  "what_is_not_claimed": [
+    "Not that plants are conscious.",
+    "Not that mycelium computes IIT-phi.",
+    "Not that gut microbes think.",
+    "Not a reclaim of SBC, IRC, TAC, or Dark Biosphere."
+  ],
+  "why_iterate": "IRC cannot own plant anaesthesia or holobiont cognition: they are not numbers. SBC refused consciousness. The leftover is a predicate traveling to a new substrate.",
+  "zeroed": [
+    "anesthesia_as_unresponsiveness",
+    "h0_as_constant",
+    "phi_to_mycelium"
+  ]
+}

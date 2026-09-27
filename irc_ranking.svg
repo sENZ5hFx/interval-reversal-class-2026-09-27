@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+  <rect width="1100" height="620" fill="#0e0e12"/>
+  <text x="48" y="42" fill="#f3ead8" font-family="Georgia, serif" font-size="22">Interval-Reversal Class — live ranking  2026-09-27</text>
+  <text x="48" y="68" fill="#d7c4a3" font-family="Georgia, serif" font-size="13">A number is IRC only if its interval contains two qualitative worlds. Scores are a heuristic, not measurements of nature.</text>
+  <!-- scores: 34.48, 16.24, 8.51, 8.29, 4.98   max 34.48 → bar max width 720 -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">
+    <text x="48" y="128" fill="#e8dcc8">ocean  mesopelagic fish  1–33 Gt</text>
+    <rect x="48" y="138" width="720" height="28" fill="#0b3d5c" stroke="#d7c4a3" stroke-width="0.8"/>
+    <text x="778" y="158" fill="#d7c4a3">34.48   fold 33</text>
+
+    <text x="48" y="198" fill="#e8dcc8">earth  archaeal biomass  ×13</text>
+    <rect x="48" y="208" width="339" height="28" fill="#6b3f1a" stroke="#d7c4a3" stroke-width="0.8"/>
+    <text x="397" y="228" fill="#d7c4a3">16.24   fold 13</text>
+
+    <text x="48" y="268" fill="#e8dcc8">earth  bacterial biomass  ×10</text>
+    <rect x="48" y="278" width="178" height="28" fill="#6b3f1a" stroke="#d7c4a3" stroke-width="0.8"/>
+    <text x="236" y="298" fill="#d7c4a3">8.51   fold 10</text>
+
+    <text x="48" y="338" fill="#e8dcc8">earth  subsurface C-fixation  0.31–2.99 Pg yr⁻¹</text>
+    <rect x="48" y="348" width="173" height="28" fill="#6b3f1a" stroke="#d7c4a3" stroke-width="0.8"/>
+    <text x="231" y="368" fill="#d7c4a3">8.29   fold 9.6</text>
+
+    <text x="48" y="408" fill="#e8dcc8">land  soil species fraction  59±15%</text>
+    <rect x="48" y="418" width="104" height="28" fill="#2f5d32" stroke="#d7c4a3" stroke-width="0.8"/>
+    <text x="162" y="438" fill="#d7c4a3">4.98   fold 1.68</text>
+  </g>
+  <text x="48" y="500" fill="#9a8f7c" font-family="Georgia, serif" font-size="12">Zeroed controls: plants ×1.2, humans 0.06 Gt C, Hubble tension, Sweetman nodule O₂, GORG-Dark, magnetoreceptor, consciousness, 3I/ATLAS, seafloor 0.001%.</text>
+  <text x="48" y="524" fill="#9a8f7c" font-family="Georgia, serif" font-size="12">Primary discriminator: if a better twilight-zone census shrinks 1–33 Gt until both ends license the same carbon-pump sentence, the case leaves IRC.</text>
+  <text x="48" y="560" fill="#6e675c" font-family="Georgia, serif" font-size="11">Session 2026-09-27-irc  ·  SHA-256 9216812a051a9212d949ef51425646db43bf55010934358ab41da49b78fe087d  ·  © Haley Bird  ·  research-stage classification</text>
+  <text x="48" y="590" fill="#6e675c" font-family="Georgia, serif" font-size="11">IRC heuristic score (not a measurement of nature)</text>
+</svg>

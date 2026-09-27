@@ -1,0 +1,608 @@
+{
+  "adversarial": [
+    {
+      "ruling": "Reject. Most error bars do not reverse the qualitative sentence (plants 1.2\u00d7, human 0.06, deep biosphere 15\u201323, uncultured 87\u201399 all fail the reversal test and score 0). IRC is the subset where the interval contains two different worlds AND the working sentence drops it.",
+      "temptation": "Call IRC 'just error bars'"
+    },
+    {
+      "ruling": "Reject. OAC is rank-deficient observation (two distinct quantities aliased). IRC is one quantity whose own interval licenses two sentences.",
+      "temptation": "This is OAC (two quantities, one number)"
+    },
+    {
+      "ruling": "Reject. Two-clock is two instruments. Hubble is zeroed. IRC is one instrument's interval. Mesopelagic 1 vs 33 is acoustic/net envelope of one named pool, not two cosmological clocks.",
+      "temptation": "This is CIC two-clock (Hubble)"
+    },
+    {
+      "ruling": "Reject. EFC kill is 'more n from G_cal cannot identify G_target'. IRC kill is 'shrink the SAME number's interval until both ends agree'. A better twilight-zone census can close IRC without swapping generators.",
+      "temptation": "This is EFC (wrong generator)"
+    },
+    {
+      "ruling": "Reject as primary. prior_overlap=0.72 by design. Existence/architecture is 2026-05-14 IP. Bacteria may rank, must not lead.",
+      "temptation": "Reclaim Dark Biosphere via bacteria 10\u00d7"
+    },
+    {
+      "ruling": "Reject. CLOSED find. Editor's Note 8 Apr 2026. Zeroed.",
+      "temptation": "Treat Sweetman nodule O2 as an IRC range 1.7\u201318"
+    },
+    {
+      "ruling": "Reject. Both ends keep 'plants dominate'. Control scored 0.",
+      "temptation": "Treat plant dominance as IRC because 375\u2013540"
+    },
+    {
+      "ruling": "Reject. UPRC forbade this. IRC unifies an error class, not a substance.",
+      "temptation": "Unify all dark remainders into one substance"
+    },
+    {
+      "ruling": "Reject. Timestamp \u2260 filing. Scores are a heuristic, not nature.",
+      "temptation": "Claim a patent, priority date, or physical discovery"
+    },
+    {
+      "ruling": "Mesopelagic 1\u201333 is a published community envelope, not a single-paper 1\u03c3 CI. The engine treats it as IRC only because the ENDS reverse the working sentence. If a single method's CI stays inside one world, that method is not IRC; the ENVELOPE across methods still is, until methods agree.",
+      "temptation": "Primary is mesopelagic_fish \u2014 is the envelope a fake CI?"
+    }
+  ],
+  "author": "Haley Bird",
+  "capability_gap": "No existing tool tracks, against a local archive of already-claimed structural classes, whether a scientific unknown is a missing place, converter, clock, join, mixed number, hidden field, wrong generator, wrong constitutive sense \u2014 or a published interval that already contains two qualitative worlds while the working sentence cites one number.",
+  "catalog_n": 21,
+  "class_name": "Interval-Reversal Class (IRC)",
+  "class_one_liner": "A published number's interval contains more than one qualitative world, and the working sentence cites the point estimate as if it contained one.",
+  "falsification_rule": {
+    "case_kill_modal": "If the source already leads with the interval and the claim is modal, IRC does not apply.",
+    "class_kill": "If both ends of the interval license the same qualitative sentence, IRC does not apply.",
+    "graduation": "If a better census of the SAME generator shrinks the interval until both ends agree, the case leaves IRC.",
+    "not_efc": "Swapping generators is EFC. Shrinking one number is IRC.",
+    "not_oac": "Unmixing two aliased quantities is OAC. One quantity, two worlds is IRC.",
+    "not_tac": "Locating a converter does not close an interval-reversal.",
+    "not_undersampling": "More spatial samples at the same precision that do not shrink the qualitative split \u2192 still IRC or EFC, not a missing place."
+  },
+  "generated_at_utc": "2026-09-27T17:48:18.872825+00:00",
+  "live_n": 5,
+  "live_ranking": [
+    {
+      "evidence": 0.86,
+      "fold": 33.0,
+      "high_world": "twilight-zone fish dominate marine vertebrate biomass and a large fraction of active carbon flux",
+      "id": "mesopelagic_fish",
+      "label": "Mesopelagic fish biomass envelope 1\u201333 Gt",
+      "load_bearing_sentence": "Most of Earth's fish live in the twilight zone / lanternfish drive the biological pump.",
+      "log10_fold": 1.5185,
+      "low_world": "twilight-zone fish are a minor carbon-pump term",
+      "point_estimate": "headline values wander 1 / 9 / 33 Gt wet mass",
+      "prior_overlap": 0.12,
+      "range": [
+        1.0,
+        33.0
+      ],
+      "realm": "ocean",
+      "score": 34.4763,
+      "source": "Community envelope: conservative ~1 Gt; Kaartvedt et al. robust ~9 Gt; updated acoustic estimates up to 33 Gt (Irigoien 2014 lineage; bioRxiv 10.1101/2025.08.18.670904 uses 1 Gt conservative and 33 Gt acoustic). Not a single-paper CI \u2014 a published envelope whose ends reverse the sentence.",
+      "spoken": 0.25,
+      "status": "GAP",
+      "unit": "Gt wet mass",
+      "zero_reasons": [],
+      "zeroed": false
+    },
+    {
+      "evidence": 0.9,
+      "fold": 13.0,
+      "high_world": "archaea are a major carbon pool (~90 Gt C)",
+      "id": "archaea_biomass",
+      "label": "Archaeal biomass 7 Gt C, 13-fold uncertainty",
+      "load_bearing_sentence": "Archaea are a small but metabolically decisive kingdom.",
+      "log10_fold": 1.1139,
+      "low_world": "archaea are a rounding error in the biosphere census",
+      "point_estimate": "7 Gt C",
+      "prior_overlap": 0.55,
+      "range": [
+        0.5384615384615384,
+        91.0
+      ],
+      "realm": "earth",
+      "score": 16.2413,
+      "source": "Bar-On et al. 2018; uncertainty factor 13.",
+      "spoken": 0.1,
+      "status": "KNOWN",
+      "unit": "Gt C",
+      "zero_reasons": [],
+      "zeroed": false
+    },
+    {
+      "evidence": 0.95,
+      "fold": 10.0,
+      "high_world": "bacteria rival or exceed plants (700 vs 450 Gt C)",
+      "id": "bacteria_biomass",
+      "label": "Bacterial biomass 70 Gt C, 10-fold uncertainty",
+      "load_bearing_sentence": "Bacteria are the second kingdom of life / ~70% of prokaryotes live underground.",
+      "log10_fold": 1.0,
+      "low_world": "bacteria are a side kingdom (~1.5% of 550 Gt C biosphere)",
+      "point_estimate": "70 Gt C",
+      "prior_overlap": 0.72,
+      "range": [
+        7.0,
+        700.0
+      ],
+      "realm": "earth",
+      "score": 8.512,
+      "source": "Bar-On, Phillips & Milo, PNAS 2018; uncertainty factor 10 (7\u2013700 Gt C).",
+      "spoken": 0.2,
+      "status": "KNOWN",
+      "unit": "Gt C",
+      "zero_reasons": [],
+      "zeroed": false
+    },
+    {
+      "evidence": 0.62,
+      "fold": 9.645,
+      "high_world": "material climate term (~2.5% of terrestrial NPP; order of magnitude above geological fluxes cited by the same preprint)",
+      "id": "subsurface_c_fixation",
+      "label": "Continental subsurface autotrophic C-fixation 0.31\u20132.99 Pg C yr\u207b\u00b9",
+      "load_bearing_sentence": "Subsurface life fixes ~2% of terrestrial photosynthetic carbon.",
+      "log10_fold": 0.9843,
+      "low_world": "ignore in Earth-system carbon budgets (<0.3% of terrestrial NPP)",
+      "point_estimate": "~2.65 Pg C yr\u207b\u00b9 (~2% of terrestrial photosynthesis)",
+      "prior_overlap": 0.35,
+      "range": [
+        0.31,
+        2.99
+      ],
+      "realm": "earth",
+      "score": 8.2905,
+      "source": "CoEvolve consortium preprint bioRxiv 10.64898/2026.05.06.723307 (2026): global continental subsurface carbon fixation ~2.65 Pg C yr\u207b\u00b9 (range 0.31\u20132.99). UNPROVED rate \u2014 preprint, not peer-reviewed.",
+      "spoken": 0.05,
+      "status": "UNPROVED",
+      "unit": "Pg C yr-1",
+      "zero_reasons": [],
+      "zeroed": false
+    },
+    {
+      "evidence": 0.84,
+      "fold": 1.682,
+      "high_world": "soil holds a large majority of species",
+      "id": "soil_species_fraction",
+      "label": "Soil holds 59 \u00b1 15% of planetary species",
+      "load_bearing_sentence": "Most of Earth's species live in soil.",
+      "log10_fold": 0.2258,
+      "low_world": "soil holds a large minority of species",
+      "point_estimate": "59%",
+      "prior_overlap": 0.18,
+      "range": [
+        44.0,
+        74.0
+      ],
+      "realm": "land",
+      "score": 4.9776,
+      "source": "Anthony, Bender & van der Heijden, PNAS 2023 e2304663120; 59 \u00b1 15%.",
+      "spoken": 0.2,
+      "status": "GAP",
+      "unit": "% of species",
+      "zero_reasons": [],
+      "zeroed": false
+    }
+  ],
+  "novelty": {
+    "coherence": 0.83,
+    "novelty_capped": 0.44,
+    "reason": "Operator is distinct (one quantity, two qualitative worlds, omitted interval) but adjacent to OAC / CIC two-clock / EFC. Capped because the engine did not invent a new physical mechanism."
+  },
+  "primary": {
+    "evidence": 0.86,
+    "fold": 33.0,
+    "high_world": "twilight-zone fish dominate marine vertebrate biomass and a large fraction of active carbon flux",
+    "id": "mesopelagic_fish",
+    "label": "Mesopelagic fish biomass envelope 1\u201333 Gt",
+    "load_bearing_sentence": "Most of Earth's fish live in the twilight zone / lanternfish drive the biological pump.",
+    "log10_fold": 1.5185,
+    "low_world": "twilight-zone fish are a minor carbon-pump term",
+    "point_estimate": "headline values wander 1 / 9 / 33 Gt wet mass",
+    "prior_overlap": 0.12,
+    "range": [
+      1.0,
+      33.0
+    ],
+    "realm": "ocean",
+    "score": 34.4763,
+    "source": "Community envelope: conservative ~1 Gt; Kaartvedt et al. robust ~9 Gt; updated acoustic estimates up to 33 Gt (Irigoien 2014 lineage; bioRxiv 10.1101/2025.08.18.670904 uses 1 Gt conservative and 33 Gt acoustic). Not a single-paper CI \u2014 a published envelope whose ends reverse the sentence.",
+    "spoken": 0.25,
+    "status": "GAP",
+    "unit": "Gt wet mass",
+    "zero_reasons": [],
+    "zeroed": false
+  },
+  "prior_classes_not_reclaimed": [
+    [
+      "Dark Biosphere Hypothesis",
+      "2026-05-14"
+    ],
+    [
+      "Cosmic-Bio Resonance",
+      "2026-05-14"
+    ],
+    [
+      "Undersampling",
+      "2026-08-03"
+    ],
+    [
+      "Deep-biosphere-as-space-prior",
+      "2026-08-14"
+    ],
+    [
+      "Transducer-Absence Class (TAC)",
+      "2026-08-28"
+    ],
+    [
+      "Cadence Mismatch",
+      "2026-08-29"
+    ],
+    [
+      "Named-Cause Residual (NCR)",
+      "2026-08-30"
+    ],
+    [
+      "Failed-Adjudication Class (FAC)",
+      "2026-08-31"
+    ],
+    [
+      "Clock-Incommensurability Class (CIC)",
+      "2026-09-01"
+    ],
+    [
+      "Join-Absence Class (JAC)",
+      "2026-09-02"
+    ],
+    [
+      "Interscale-Operator Absence (IOA)",
+      "2026-09-04"
+    ],
+    [
+      "Destructive-Inquiry Class (DIC)",
+      "2026-09-06"
+    ],
+    [
+      "Patch-Proliferation Class (PPC)",
+      "2026-09-08"
+    ],
+    [
+      "Unrecorded-Cessation Class (UCC)",
+      "2026-09-10"
+    ],
+    [
+      "DCC",
+      "2026-09-12"
+    ],
+    [
+      "Frontier Coincidence Class (FCC)",
+      "2026-09-13"
+    ],
+    [
+      "Observable-Aliasing Class (OAC)",
+      "2026-09-14"
+    ],
+    [
+      "Unclosed Planetary Redox Column (UPRC)",
+      "2026-09-16"
+    ],
+    [
+      "Coupling Incompleteness Principle (CIP)",
+      "2026-09-17"
+    ],
+    [
+      "Truncated-Parameter Class (TPC)",
+      "2026-09-20"
+    ],
+    [
+      "Channel-Monopoly Class (CMC)",
+      "2026-09-20"
+    ],
+    [
+      "Exchangeability-Failure Class (EFC)",
+      "2026-09-23"
+    ],
+    [
+      "Independence-Privilege Class (IPC)",
+      "2026-09-25"
+    ],
+    [
+      "Sensory-Basis Class (SBC)",
+      "2026-09-25"
+    ]
+  ],
+  "realm_senses": {
+    "animals": [
+      {
+        "item": "Mesopelagic fishes as the ocean's vertebrate majority-or-not",
+        "label": "GAP (shared with ocean)",
+        "note": "The animal remainder of IRC is the same envelope. Not a new receptor."
+      },
+      {
+        "item": "Magnetoreceptor cell unlocated after ~60 years",
+        "label": "RETAIN TAC/CMC",
+        "note": "Hybrid radical-pair + magnetite (PNAS Feb 2026) is still a candidate, not a located cell. JEB 2025: ruling hypothesis."
+      },
+      {
+        "item": "Animal biomass 2 Gt C \u00d75",
+        "label": "CONTROL",
+        "note": "0.4 and 10 Gt C are both a rounding error vs plants. No reversal."
+      }
+    ],
+    "earth": [
+      {
+        "item": "Bar-On bacteria 70 Gt C with 10-fold uncertainty (7\u2013700)",
+        "label": "KNOWN range / IRC remainder",
+        "note": "score=8.512. Architecture is Dark Biosphere. Remainder is the number."
+      },
+      {
+        "item": "Continental subsurface C-fixation 0.31\u20132.99 Pg C yr\u207b\u00b9",
+        "label": "UNPROVED preprint",
+        "note": "score=8.2905. Do not load-bear 2.65. Include-vs-ignore reverses inside the paper's own range."
+      },
+      {
+        "item": "Deep biosphere 15\u201323 Gt C vs humans 0.06",
+        "label": "CONTROL / RECLAIM",
+        "note": "Both ends keep 'hundreds of times human carbon'. Existence prior IP."
+      }
+    ],
+    "humans": [
+      {
+        "item": "Human biomass 0.06 Gt C, tight",
+        "label": "CONTROL / inverse",
+        "note": "We count ourselves precisely and treat the count as a curiosity. High precision, low Earth-system load."
+      },
+      {
+        "item": "IIT vs GWT / Cogitate / hard problem",
+        "label": "REFUSED / ZEROED",
+        "note": "Spoken. FAC. SBC refused. Not IRC."
+      },
+      {
+        "item": "Gut-brain signaling 'dark matter' (Frontiers 2026)",
+        "label": "NOT IRC (no number)",
+        "note": "Iterate bait: substrate-export / holobiont, not an interval."
+      },
+      {
+        "item": "Unspoken human sense of this class",
+        "label": "SYNTHESIS",
+        "note": "We narrate ourselves as the calibrated observer of dark space. The census numbers we use as facts about life on Earth often contain more than one Earth."
+      }
+    ],
+    "land": [
+      {
+        "item": "Soil 59 \u00b1 15% of planetary species (PNAS 2023)",
+        "label": "GAP",
+        "note": "score=4.9776. 44% is a large minority; 74% is a large majority. 'Most species live in soil' flips."
+      },
+      {
+        "item": "Plants 450 Gt C \u00d71.2",
+        "label": "CONTROL",
+        "note": "High load AND high precision. Both ends keep dominance."
+      },
+      {
+        "item": "87\u201399% uncultured",
+        "label": "CONTROL",
+        "note": "Both ends keep 'most uncultured'."
+      },
+      {
+        "item": "Omnitrophota uncultured",
+        "label": "RETAIN TAC",
+        "note": "Missing lab converter, not an interval."
+      }
+    ],
+    "ocean": [
+      {
+        "item": "Mesopelagic fish 1\u201333 Gt wet mass",
+        "label": "GAP \u2014 primary candidate",
+        "note": "score=34.4763. Low world: minor pump term. High world: dominates active carbon flux."
+      },
+      {
+        "item": "Hadal chemosynthetic belt 2,500 km, 5,800\u20139,533 m (Peng 2025)",
+        "label": "KNOWN / RETAIN Dark Biosphere",
+        "note": "Depth range does not reverse 'hadal life exists'."
+      },
+      {
+        "item": "Nodule dark oxygen",
+        "label": "CLOSED",
+        "note": "Editor's Note 8 Apr 2026. X still treats it as a biology rewrite (VVL)."
+      },
+      {
+        "item": "Seafloor <0.001% seen; 28.7% mapped",
+        "label": "RETAIN undersampling / EFC bias",
+        "note": "Fraction zeroed. 3-country filled-cell generator is EFC."
+      }
+    ],
+    "space": [
+      {
+        "item": "Local H0 73.50 \u00b1 0.81 (H0DN 2026) vs CMB ~67.4",
+        "label": "RETAIN / ZEROED",
+        "note": "Spoken. FAC/CIC. Two clocks, not one interval."
+      },
+      {
+        "item": "Dark matter identity / dark energy origin",
+        "label": "RETAIN / ZEROED",
+        "note": "Spoken. TAC-shaped (signal, missing converter)."
+      },
+      {
+        "item": "3I/ATLAS D/H 15\u03c3 vs local comets",
+        "label": "RETAIN (EFC)",
+        "note": "Wrong generator, not an interval of one pool."
+      },
+      {
+        "item": "No IRC-primary in space this window",
+        "label": "SYNTHESIS",
+        "note": "Famous cosmic numbers are either spoken two-clocks or identity-gaps. IRC lives where a census exists and still spans two worlds."
+      }
+    ]
+  },
+  "runner_up": {
+    "evidence": 0.9,
+    "fold": 13.0,
+    "high_world": "archaea are a major carbon pool (~90 Gt C)",
+    "id": "archaea_biomass",
+    "label": "Archaeal biomass 7 Gt C, 13-fold uncertainty",
+    "load_bearing_sentence": "Archaea are a small but metabolically decisive kingdom.",
+    "log10_fold": 1.1139,
+    "low_world": "archaea are a rounding error in the biosphere census",
+    "point_estimate": "7 Gt C",
+    "prior_overlap": 0.55,
+    "range": [
+      0.5384615384615384,
+      91.0
+    ],
+    "realm": "earth",
+    "score": 16.2413,
+    "source": "Bar-On et al. 2018; uncertainty factor 13.",
+    "spoken": 0.1,
+    "status": "KNOWN",
+    "unit": "Gt C",
+    "zero_reasons": [],
+    "zeroed": false
+  },
+  "session_id": "2026-09-27-irc",
+  "sha256": "9216812a051a9212d949ef51425646db43bf55010934358ab41da49b78fe087d",
+  "status": "research-stage classification. Not a physical discovery, not peer review, not a patent.",
+  "timestamp": "2026-09-27T13:40:00-04:00",
+  "what_is_not_claimed": [
+    "Not a new physical mechanism for fish, carbon, or biomass.",
+    "Not a proof that mesopelagic biomass is 9 or 33 Gt.",
+    "Not a proof that subsurface C-fixation is 2.65 Pg yr\u207b\u00b9 (preprint).",
+    "Not a reclaim of Dark Biosphere, SBC, EFC, IPC, TAC, CIC, OAC.",
+    "Not that Sweetman nodule oxygen is real or fake (CLOSED).",
+    "Not patent-ready, not peer-reviewed, not a discovery of nature.",
+    "Scores are a heuristic. They are not measurements of nature."
+  ],
+  "zeroed": [
+    {
+      "id": "animal_biomass",
+      "realm": "animals",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal"
+      ]
+    },
+    {
+      "id": "arbuscular_mycelium",
+      "realm": "land",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal",
+        "source already leads with interval"
+      ]
+    },
+    {
+      "id": "atlas_3i_generator",
+      "realm": "space",
+      "reasons": [
+        "reclaim/control/retain",
+        "source already leads with interval"
+      ]
+    },
+    {
+      "id": "consciousness_hard_problem",
+      "realm": "humans",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal",
+        "fold <= 1"
+      ]
+    },
+    {
+      "id": "deep_biosphere_carbon",
+      "realm": "earth",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal",
+        "source already leads with interval"
+      ]
+    },
+    {
+      "id": "desi_dynamic_de",
+      "realm": "space",
+      "reasons": [
+        "reclaim/control/retain",
+        "fold <= 1"
+      ]
+    },
+    {
+      "id": "gorg_dark_chemistry",
+      "realm": "ocean",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal",
+        "fold <= 1"
+      ]
+    },
+    {
+      "id": "gut_signaling_dark_matter",
+      "realm": "humans",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal",
+        "fold <= 1"
+      ]
+    },
+    {
+      "id": "hadal_chemosynthesis_extent",
+      "realm": "ocean",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal",
+        "source already leads with interval"
+      ]
+    },
+    {
+      "id": "hubble_tension",
+      "realm": "space",
+      "reasons": [
+        "reclaim/control/retain"
+      ]
+    },
+    {
+      "id": "human_biomass",
+      "realm": "humans",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal"
+      ]
+    },
+    {
+      "id": "magnetoreceptor_cell",
+      "realm": "animals",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal",
+        "fold <= 1"
+      ]
+    },
+    {
+      "id": "plants_gt_c",
+      "realm": "land",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal",
+        "source already leads with interval"
+      ]
+    },
+    {
+      "id": "seafloor_visual_fraction",
+      "realm": "ocean",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal",
+        "source already leads with interval"
+      ]
+    },
+    {
+      "id": "sweetman_nodule_o2",
+      "realm": "ocean",
+      "reasons": [
+        "reclaim/control/retain"
+      ]
+    },
+    {
+      "id": "uncultured_microbes",
+      "realm": "land",
+      "reasons": [
+        "reclaim/control/retain",
+        "no qualitative reversal"
+      ]
+    }
+  ],
+  "zeroed_n": 16
+}

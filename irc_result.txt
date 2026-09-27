@@ -1,0 +1,69 @@
+IRC engine 2026-09-27-irc  2026-09-27T13:40:00-04:00
+Class: Interval-Reversal Class (IRC)
+SHA-256: 9216812a051a9212d949ef51425646db43bf55010934358ab41da49b78fe087d
+Novelty capped: 0.44  Coherence: 0.83
+
+A published number's interval contains more than one qualitative world, and the working sentence cites the point estimate as if it contained one.
+
+LIVE RANKING
+  01.   34.48  ocean     mesopelagic_fish              fold=33.0  Mesopelagic fish biomass envelope 1–33 Gt
+  02.   16.24  earth     archaea_biomass               fold=13.0  Archaeal biomass 7 Gt C, 13-fold uncertainty
+  03.    8.51  earth     bacteria_biomass              fold=10.0  Bacterial biomass 70 Gt C, 10-fold uncertainty
+  04.    8.29  earth     subsurface_c_fixation         fold=9.645  Continental subsurface autotrophic C-fixation 0.31–2.99 Pg C yr⁻¹
+  05.    4.98  land      soil_species_fraction         fold=1.682  Soil holds 59 ± 15% of planetary species
+
+ZEROED
+  00. animal_biomass                animals   reclaim/control/retain, no qualitative reversal
+  00. arbuscular_mycelium           land      reclaim/control/retain, no qualitative reversal, source already leads with interval
+  00. atlas_3i_generator            space     reclaim/control/retain, source already leads with interval
+  00. consciousness_hard_problem    humans    reclaim/control/retain, no qualitative reversal, fold <= 1
+  00. deep_biosphere_carbon         earth     reclaim/control/retain, no qualitative reversal, source already leads with interval
+  00. desi_dynamic_de               space     reclaim/control/retain, fold <= 1
+  00. gorg_dark_chemistry           ocean     reclaim/control/retain, no qualitative reversal, fold <= 1
+  00. gut_signaling_dark_matter     humans    reclaim/control/retain, no qualitative reversal, fold <= 1
+  00. hadal_chemosynthesis_extent   ocean     reclaim/control/retain, no qualitative reversal, source already leads with interval
+  00. hubble_tension                space     reclaim/control/retain
+  00. human_biomass                 humans    reclaim/control/retain, no qualitative reversal
+  00. magnetoreceptor_cell          animals   reclaim/control/retain, no qualitative reversal, fold <= 1
+  00. plants_gt_c                   land      reclaim/control/retain, no qualitative reversal, source already leads with interval
+  00. seafloor_visual_fraction      ocean     reclaim/control/retain, no qualitative reversal, source already leads with interval
+  00. sweetman_nodule_o2            ocean     reclaim/control/retain
+  00. uncultured_microbes           land      reclaim/control/retain, no qualitative reversal
+
+PRIMARY
+  mesopelagic_fish  score=34.4763  fold=33.0
+  LOW : twilight-zone fish are a minor carbon-pump term
+  HIGH: twilight-zone fish dominate marine vertebrate biomass and a large fraction of active carbon flux
+  SRC : Community envelope: conservative ~1 Gt; Kaartvedt et al. robust ~9 Gt; updated acoustic estimates up to 33 Gt (Irigoien 2014 lineage; bioRxiv 10.1101/2025.08.18.670904 uses 1 Gt conservative and 33 Gt acoustic). Not a single-paper CI — a published envelope whose ends reverse the sentence.
+
+ADVERSARIAL
+  TEMPT: Call IRC 'just error bars'
+  RULE : Reject. Most error bars do not reverse the qualitative sentence (plants 1.2×, human 0.06, deep biosphere 15–23, uncultured 87–99 all fail the reversal test and score 0). IRC is the subset where the interval contains two different worlds AND the working sentence drops it.
+
+  TEMPT: This is OAC (two quantities, one number)
+  RULE : Reject. OAC is rank-deficient observation (two distinct quantities aliased). IRC is one quantity whose own interval licenses two sentences.
+
+  TEMPT: This is CIC two-clock (Hubble)
+  RULE : Reject. Two-clock is two instruments. Hubble is zeroed. IRC is one instrument's interval. Mesopelagic 1 vs 33 is acoustic/net envelope of one named pool, not two cosmological clocks.
+
+  TEMPT: This is EFC (wrong generator)
+  RULE : Reject. EFC kill is 'more n from G_cal cannot identify G_target'. IRC kill is 'shrink the SAME number's interval until both ends agree'. A better twilight-zone census can close IRC without swapping generators.
+
+  TEMPT: Reclaim Dark Biosphere via bacteria 10×
+  RULE : Reject as primary. prior_overlap=0.72 by design. Existence/architecture is 2026-05-14 IP. Bacteria may rank, must not lead.
+
+  TEMPT: Treat Sweetman nodule O2 as an IRC range 1.7–18
+  RULE : Reject. CLOSED find. Editor's Note 8 Apr 2026. Zeroed.
+
+  TEMPT: Treat plant dominance as IRC because 375–540
+  RULE : Reject. Both ends keep 'plants dominate'. Control scored 0.
+
+  TEMPT: Unify all dark remainders into one substance
+  RULE : Reject. UPRC forbade this. IRC unifies an error class, not a substance.
+
+  TEMPT: Claim a patent, priority date, or physical discovery
+  RULE : Reject. Timestamp ≠ filing. Scores are a heuristic, not nature.
+
+  TEMPT: Primary is mesopelagic_fish — is the envelope a fake CI?
+  RULE : Mesopelagic 1–33 is a published community envelope, not a single-paper 1σ CI. The engine treats it as IRC only because the ENDS reverse the working sentence. If a single method's CI stays inside one world, that method is not IRC; the ENVELOPE across methods still is, until methods agree.
+
